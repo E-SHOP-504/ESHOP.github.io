@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Times New Roman';
+	text-align: center;
+	color: #0A0A0A
+
+}
+p{
+	padding: 2px;
+	margin: 2px;
+	font-family: 'Avenir Next LT Pro';
+	text-align: center;
+	color:#000000
+
+}
+.wrapper{
+	width: 80%;
+	max-width: 1800px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.texto
+{
+	font-size: 2000 px;
+}
+
+

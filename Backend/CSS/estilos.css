@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #CDCDCD ;
+}
+header{
+	width: 100%;
+	height: 190px;
+	overflow: hidden;
+	background: #ff8000;
+	margin-bottom: 10px;
+}
+.wrapper{
+	width: 130%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+.wrapper2{
+	padding-top: 0px;
+	width: 600px;
+	height: 150px;
+	border: 1px solid #FFFFFF;
+	float: justify;
+	text-align: center;
+}
+
+header .logo{
+	color: aliceblue;
+	font-size: 50px;
+	line-height: 200px;
+	float: left;
+}
+header nav{
+	float: right;
+	line-height: 200px;
+}
+header nav a{
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 8px 8px;
+	line-height:normal;
+	font-size: 20px; 
+	font-weight: bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+header nav a:hover {
+	background:  #9F9F9F;
+	border-radius: 50px;
+	
+}
+.header2{
+	position: fixed;
+	height: 100px;
+	
+}
+.header2 .logo{
+	line-height: 100px;
+	font-size: 30px;
+}
+.header2 nav{
+	line-height: 100px;
+}
+.contenido{
+	padding-top: 100px;
+}
+
+.contenido p{
+	margin-bottom: 1em;
+}
+.uno
+{
+	padding-top: 50px;
+	width: 490px;
+	height: 300px;
+	border: 1px solid #FFFFFF;
+	float: left;
+	text-align: center;
+}
+
+.dos
+{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.carrusel{
+	padding-top: 200px;
+}
+.decorar_botones
+{
+	text-decoration: none;
+	border: 3px solid #e7c50c;
+	padding: 10px, 20px, 10px, 20px;
+	margin: 10px;	
+}
+
+.decorar_botones:hover
+{
+	background: #ff8000;
+	color: #FFFfff;
+	transition: background 1s, color 1s;
+}
+
+
+@media screen and (max-width: 950px){
+	header .logo,
+	header nav{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+	}
+	.header2{
+		height: auto;
+	}
+	.header2 .logo, 
+	.heaver2 nav{
+		line-height: 50px;
+		
+	}
+}
